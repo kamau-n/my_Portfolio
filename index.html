@@ -19,6 +19,12 @@
             font-family: "Montserrat", sans-serif
         }
         
+        #img {
+            -webkit-filter: grayscale(100%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+        
         .w3-row-padding img {
             margin-bottom: 12px
         }
@@ -70,8 +76,8 @@
         <header class="w3-container w3-center" style="padding:128px 16px" id="home">
             <h1 class="w3-jumbo"><b>Kamau Harrison</b></h1>
             <p>Software Engineer.</p>
-            <img src="bg.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-            <img src="bg.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+            <img src="bg.jpg" id="img" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto; height: 100;">
+            <img src="bg.jpg" id="img" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
             <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
       <i class="fa fa-download"></i>      <a href="kamau_cv.docx" style="text-decoration:none" download="filename">Download Resume</a>
  
@@ -351,5 +357,7 @@
     </script>
 
 </body>
+
+</html>
 
 </html>
